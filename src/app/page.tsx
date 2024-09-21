@@ -14,7 +14,6 @@ export default function Home() {
           <div className='col-span-2 px-6 lg:px-0 lg:pt-4'>
             <div className='relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start'>
               <div className='absolute w-28 left-0 -top-20 hidden lg:block'>
-                {/* i forgot this div right here in the video, it's purely visual gradient and looks nice */}
                 <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t via-slate-50/50 from-slate-50 h-28' />
                 <img src='/snake-1.png' className='w-full' />
               </div>
@@ -86,7 +85,7 @@ export default function Home() {
                   </div>
 
                   <p>
-                    <span className='font-semibold'>1.250</span> happy customers
+                    <span className='font-semibold'>1,250</span> happy customers
                   </p>
                 </div>
               </div>
@@ -151,7 +150,7 @@ export default function Home() {
                   alt='user'
                 />
                 <div className='flex flex-col'>
-                  <p className='font-semibold'>Jonathan</p>
+                  <p className='font-semibold'>Harsh</p>
                   <div className='flex gap-1.5 items-center text-zinc-600'>
                     <Check className='h-4 w-4 stroke-[3px] text-green-600' />
                     <p className='text-sm'>Verified Purchase</p>
@@ -188,7 +187,7 @@ export default function Home() {
                   alt='user'
                 />
                 <div className='flex flex-col'>
-                  <p className='font-semibold'>Josh</p>
+                  <p className='font-semibold'>Krishan</p>
                   <div className='flex gap-1.5 items-center text-zinc-600'>
                     <Check className='h-4 w-4 stroke-[3px] text-green-600' />
                     <p className='text-sm'>Verified Purchase</p>
